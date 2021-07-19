@@ -175,3 +175,5 @@ import Visitor._
     AnonymousVisitor
   )
   someVisitors.foreach(prettyPrintln)
+
+type Test = Int *: (String, Int)
